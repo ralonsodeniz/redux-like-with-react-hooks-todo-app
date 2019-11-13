@@ -26,17 +26,12 @@ $base-color: $grey-4;
 
 body {
   margin: 0;
-
   font-family: 'Raleway';
   font-size: 1rem;
   font-weight: 400;
-
   line-height: 1.5;
-
   color: #2A201F;
-
   text-align: left;
-
   background-color: #ECEDF2;
 }
 

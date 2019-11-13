@@ -31,13 +31,13 @@ export const CustomButtonContainer = styled.button<IButtonContainerProps>`
   background-color: white;
   color: #807a7a;
   font-weight: 500;
-  box-shadow: 1px 2px 4px 0 rgba($black, 0.15);
+  box-shadow: 1px 2px 4px 0 rgba(0,0,0, 0.15);
   border: none;
   border-radius: 4px;
   outline: none;
 
   &:active {
-    box-shadow: 1px 1px 2px 0 rgba($black, 0.15);
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0, 0.15);
   }
 
   &[type="button"]:not(:disabled),

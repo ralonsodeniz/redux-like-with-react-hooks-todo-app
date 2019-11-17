@@ -60,6 +60,8 @@ The Provider component wraps the App (or the childrens you decide if you do not 
 ## bindActions util
 
 bindActions, found in **store/bindActions.ts** is an util that allows us to pass it an object with all the action functions and it will retunr another object with all those actions dispatch ready to use. The shape of the returned object would be similar to the object we pass to mapDispatchToProps. The functions in the returned object are ready to use without the need of dispatching them in the code everytime we want to use them since they have been already dispatch binded.
+If we do not want to use this util function we would just need to get dispatch from the _useGlobalStoreContext_ and then get the actions we want from the specific reducer and dispatch them:\
+example for an onClick `() => dispatch(action())`
 
 ## custom hooks
 
